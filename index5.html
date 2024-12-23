@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style5.css">
+    <meta name="keywords" content="barınaktaki ve sokaktaki hayvanlar için yardım">
+    <meta name="description" content="e ticaret">
+    <meta name="author" content="YAĞMUR TOGAY">
+    <link rel="icon" type="image/x-icon" href="resimler/barınak logo.jpg">
+    <title>DESTEK</title>
+ </head>
+ <body>
+    <header>
+        <div class="container">
+                <div class="logo">
+                    <img src="resimler/barınak logo.jpg" alt="Haysev Logo">
+                </div>
+            <div class="search-box">
+                <input type="text" placeholder="Ara...">
+                <button type="submit">Ara</button>
+            </div>
+        </div>
+    </header>
+    <div class="logo">
+        <img src="resimler/barınak logo.jpg" style="width: 120px; height: 120px;">
+    </div>
+    <h3>DESTEK İÇİN BİZE ULAŞABİLİRSİNİZ.</h3>
+    <h5>Herhangi bir sorun veya problemde bize buradan ulaşabilirsiniz.</h5>
+    <div class="form-kutusu">
+        <form action="php/destek.php" method="post">
+            <label for="ad">Adınız:</label>
+            <input type="text" id="ad" name="ad" required>
+            
+            <label for="soyad">Soyadınız:</label>
+            <input type="text" id="soyad" name="soyad" required>
+            
+            <label for="email">E-posta Adresiniz:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="konu">Konu Seçimi:</label>
+            <select id="konu" name="konu">
+                <option value="odeme">Ödeme Problemi</option>
+                <option value="urun">Ürün Şikayeti</option>
+                <option value="bagis">Bağışlar</option>
+                <option value="diger">Diğer</option>
+            </select>
+            
+            <label for="mesaj">Mesajınız:</label>
+            <textarea id="mesaj" name="mesaj" rows="10" cols="30" required></textarea>
+            
+            <button type="submit">Gönder</button>
+        </form>
+        <footer>
+            <div class="container">
+                <p>&copy; 2022 HaySev. Tüm hakları saklıdır.</p>
+            </div>
+        </footer>
+    </div>
+  </body>
+</html>
