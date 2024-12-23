@@ -1,0 +1,89 @@
+body {  
+  background-color: wheat;  
+  margin: 0;  
+}  
+
+header {  
+  background-color: #2c3e50;  
+  color: #ecf0f1;  
+  padding: 10px 20px;  
+}  
+
+.container {  
+  display: flex;  
+  align-items: center;  
+  justify-content: space-between;  
+}  
+
+.logo {  
+  height: 50px;  
+  width: 50px;  
+  flex-shrink: 0;  
+}  
+
+.logo img {  
+  height: 60px;  
+  width: auto;  
+  border-radius: 50%;  
+  object-fit: cover;  
+}  
+
+.search-box {  
+  display: flex;  
+  align-items: center;  
+  margin-left: auto;  
+}  
+
+.search-input {  
+  padding: 8px;  
+  border: 1px solid #ccc;  
+  border-radius: 5px;  
+  margin-right: 5px;  
+  width: 200px;   
+}  
+
+.search-btn {  
+  padding: 8px 12px;  
+  background-color: blue;  
+  color: #fff;  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer;  
+}  
+
+.sepet-btn {  
+  background-color: transparent;  
+  border: none;  
+  cursor: pointer;  
+  padding: 0; /* İç boşluğu sıfırlayın */  
+}  
+
+.sepet-icon {  
+  width: 25px;  /* İkonun genişliği */  
+  height: 25px; /* İkonun yüksekliği */  
+}  
+
+footer {  
+  background-color: #2c3e50;  
+  color: #ecf0f1;  
+  padding: 10px 0;  
+  text-align: center;  
+}  
+
+.blog {  
+  float: left;  
+  width: 33.33%;  
+  padding: 15px;  
+}  
+
+.genel:after {  
+  content: "";  
+  display: table;  
+  clear: both;  
+}  
+
+@media screen and (max-width: 600px) {  
+  .blog {  
+      width: 100%;  
+  }  
+}

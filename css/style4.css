@@ -1,0 +1,168 @@
+body {  
+  margin: 0;  
+  padding: 0;  
+  background-color: #f2f2f2;  
+  display: flex;  
+  flex-direction: column;  
+  min-height: 100vh;  
+}  
+
+header {  
+  background-color: #2c3e50;  
+  color: #ecf0f1;  
+  padding: 15px 20px;  
+  width: 100%;  
+  position: relative;  
+}  
+
+.container {  
+  display: flex;  
+  align-items: center;  
+  justify-content: space-between;  
+  max-width: 1200px;  
+  margin: 0 auto;  
+}  
+
+.logo {  
+  position: absolute;  
+  top: 10px;  
+  left: 20px;  
+  flex: 0 0 auto;  
+}  
+
+.logo-img {  
+  width: 55px;  
+  height: 55px;  
+  border-radius: 50%;  
+}  
+
+.search-box {  
+  flex: 1;  
+  display: flex;  
+  justify-content: flex-end;  
+  margin-left: auto;  
+}  
+
+.search-input {  
+  padding: 5px;  
+  border: 2px solid #ccc;  
+  border-radius: 5px;  
+  margin-right: 10px;  
+  width: 150px;  
+}  
+
+.search-btn {  
+  background-color: blue;  
+  color: white;  
+  padding: 5px 10px;  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer;  
+  transition: background-color 0.3s;  
+}  
+
+.search-btn:hover {  
+  background-color: blue;  
+}  
+
+.kategori {  
+  display: flex;  
+  flex-wrap: wrap;  
+  justify-content: space-between;  
+  gap: 20px;  
+  padding: 20px;  
+}  
+
+.sepet {  
+  width: 220px;  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+}  
+
+.sepet-çerçevesi {  
+  border: 2px solid #2c3350;  
+  border-radius: 10px;  
+  padding: 10px;  
+  background-color: white;  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+  display: flex;  
+  flex-direction: column;  
+  justify-content: space-between;  
+  height: 250px;  
+  text-align: center;  
+  cursor: pointer;  
+  align-items: center;   
+}
+
+.sepet-çerçevesi:hover {  
+  transform: translateY(-5px);  
+}  
+
+img {  
+  border-radius: 10px;  
+  width: 100%;   
+  height: auto;  
+  object-fit: contain;  
+  display: block;  
+  margin: 0 auto;  
+}  
+
+h3 {  
+  font-size: 18px;  
+  font-weight: bold;  
+  text-transform: uppercase;  
+  font-family: Arial, sans-serif;  
+  margin: 10px 0;  
+  text-align: center;  
+}  
+
+p {  
+  margin: 5px 0;  
+  font-weight: bold;  
+}  
+
+footer {  
+  background-color: #2c3e50;  
+  color: #ecf0f1;  
+  padding: 60px 30px;  
+  text-align: center;  
+  width: 100%;  
+}  
+
+.sabit-bilgi {  
+  position: fixed;  
+  top: 10px;  
+  right: 10px;  
+  background-color: rgba(255, 255, 255, 0.9);  
+  padding: 10px;  
+  border-radius: 5px;  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+  z-index: 1000;  
+}  
+
+.sepete-ekle-btn {  
+  background-color: #007bff;  
+  color: white;  
+  padding: 5px 10px;  
+  border: none;  
+  border-radius: 10px;  
+  cursor: pointer;  
+}  
+
+.sepete-ekle-btn:hover {  
+  background-color: #0056b3;  
+}
+.sepet-icon {  
+  width: 40px;    
+  height: 40px;   
+  margin-right: 5px;   
+}
+.sepet-btn {  
+  background-color: transparent;   
+  border: none;   
+  cursor: pointer;   
+  margin-right: 10px;  
+  display: flex;  
+  align-items: center;  
+}  
